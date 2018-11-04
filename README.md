@@ -5,11 +5,12 @@ A 100-line MATLAB code for the recursive Green's function method for electron tr
 ## Features
 
 * This is a simple but working code for calculating the electron transmission in the Anderson square lattice model.
+* This code was used to do some calculations in a review article (to be submitted).
   
 ## File organizations
 
 * A script for testing:
-  * test_ballistic.m: calculate the transmission in the absence of Anderson disorder
+  * test_ballistic.m: calculates the transmission in the absence of Anderson disorder
 
 * The testing script calls
   * the driver function "find_T" to do the calculations
