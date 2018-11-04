@@ -1,6 +1,5 @@
 function T=find_T1(H00,H01,SigmaL,SigmaR,E,Nx,Ny,W)
-Ne=length(E);
-T=zeros(Nx,Ne);
+T=zeros(Nx,1);
 GammaR=imag(SigmaR);
 for nx=1:Nx     
     HW=(rand(Ny,1)-0.5)*W;
